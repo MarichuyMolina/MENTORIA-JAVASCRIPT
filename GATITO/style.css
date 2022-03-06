@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    background-color: black;
+    position: relative;
+}
+
+.cuadro div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cuadro div:hover {
+    background-color: rgba(218, 218, 218, 1);
+    cursor: pointer;
+}
+
+button {
+    padding: 20px 10px;
+    background-color: #7428cc;
+    color: white;
+    outline: none;
+    border: 0px;
+    border-radius: 8px;
+    width: 200px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #52139b;
+}
+
+.lineContainer {
+    position: relative;
+}
+
+#linea {
+    position: absolute;
+    display: block;
+    background-color: red;
+}
+
+.lineHorizontal {
+    height: 10px;
+    width: 100%;
+    top: 85px;
+    left: 0px;
+}
+
+.lineVertical {
+    position: absolute;
+    display: block;
+    height: 100%;
+    background-color: red;
+    width: 10%;
+    top: 85px;
+    left: 0px;
+}

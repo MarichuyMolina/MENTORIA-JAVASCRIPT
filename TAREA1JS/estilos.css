@@ -1,0 +1,18 @@
+html,
+body {
+    height: 100%
+}
+
+body {
+    background-color: #f70be3;
+}
+
+H1 {
+    font-family: Verdana;
+}
+
+p {
+    font-weight: bold;
+    text-align: justify;
+    font-family: Verdana;
+}
